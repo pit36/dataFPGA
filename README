@@ -1,6 +1,9 @@
-to install digilent-packages for flashing the NetFPGA:
-sudo dpkg -i digilent.adept.runtime_2.x.y_amd64.deb
-sudo dpkg -i digilent.adept.utilities_2.x.y-amd64.deb
+first step:
+folder: first_time
 
-commands:
-dsumecfg (xxx)
+to start all driver and services:
+folder: startup
+!! check the IP(s) before
+
+to flash FPGA:
+folder: debug_fpga

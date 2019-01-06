@@ -1,0 +1,18 @@
+If started first time:
+
+1. install new kernel (4.10.)
+
+2. install grub-customizer (apt get..)
+
+3. install driver:
+3.1. install additional packets:
+apt get install gcc g++
+3.2. build 
+make all
+make install
+
+4. install ovs:
+4.1. run to install required packets:
+bash ovs_install_required_packages.sh
+make
+make install
