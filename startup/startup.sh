@@ -6,4 +6,5 @@ bash config_network_interfaces.sh
 # vw2: 10.0.1.3
 # vw3: 10.0.1.4
 ip link set dev br0 up
-ip addr add 10.0.1.2/24 dev br0
+ip addr add 10.0.1.$1/24 dev br0
+ip r add 10.0.1.0 via 10.0.1.$1
