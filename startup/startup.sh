@@ -19,6 +19,7 @@ ip link set dev nf0 up
 ip link set dev nf1 up
 ip link set dev nf2 up
 ip link set dev nf3 up
+
 # add to bonds
 ovs-vsctl add-br br0
 ovs-vsctl add-bond br0 bond0 nf0 nf1
@@ -33,3 +34,10 @@ ovs-vsctl add-bond br0 bond1 nf2 nf3
 ip link set dev br0 up
 ip addr add 10.0.1.$1/24 dev br0
 ip r add 10.0.1.0 via 10.0.1.$1
+
+# change mode for bonds
+ovs-vsctl set port bond0 lacp=active
+ovs-vsctl set port bond1 lacp=active
+
+ovs-vsctl set port bond0 bond_mode=balance-tcp
+ovs-vsctl set port bond1 bond_mode=balance-tcp
