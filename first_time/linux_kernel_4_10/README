@@ -1,0 +1,2 @@
+command linux kernel:
+sudo dpkg -i *.deb
