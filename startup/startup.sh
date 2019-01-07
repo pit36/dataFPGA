@@ -27,10 +27,10 @@ ovs-vsctl add-bond br0 bond1 nf2 nf3
 
 
 # add ip to the bridge
-# bigOne: 10.0.1.1
-# vw1: 10.0.1.2
-# vw2: 10.0.1.3
-# vw3: 10.0.1.4
+# bigOne: 10.0.1.4
+# vw1: 10.0.1.1
+# vw2: 10.0.1.2
+# vw3: 10.0.1.3
 ip link set dev br0 up
 ip addr add 10.0.1.$1/24 dev br0
 ip r add 10.0.1.0 via 10.0.1.$1
