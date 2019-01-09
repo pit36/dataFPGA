@@ -42,7 +42,7 @@
 ### OUTSIDE THE KERNEL TREE ...
 
 MODULE_NAME:=	sume_riffa
-
+PWD = $(shell pwd)
 KERNEL_VER ?=	$(shell uname -r)
 KERNEL_DIR ?=	/lib/modules/$(KERNEL_VER)/build
 INSTALL_DIR ?=	/lib/modules/$(KERNEL_VER)/extra/sume_riffa/
