@@ -44,3 +44,6 @@ bash ovs_install_required_packages.sh
 5.2. build:
 make
 make install
+/sbin/modprobe openvswitch
+export PATH=$PATH:/usr/local/share/openvswitch/scripts
+ovs-ctl start

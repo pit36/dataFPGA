@@ -1,10 +1,11 @@
 check the IP adress of the bridge
 
-# vw1: 10.0.1.2
-# vw2: 10.0.1.3
-# bigBoy: 10.0.1.4
+# vw1: 10.0.1.1
+# vw2: 10.0.1.2
+...
+
 make excecutable:
-Create a file: /etc/rc.local
+Create/edit a file: /etc/rc.local
 
 File contents:
 

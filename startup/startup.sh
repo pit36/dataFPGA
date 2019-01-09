@@ -25,7 +25,6 @@ ovs-vsctl add-br br0
 ovs-vsctl add-bond br0 bond0 nf0 nf1
 ovs-vsctl add-bond br0 bond1 nf2 nf3
 
-
 # add ip to the bridge
 # bigOne: 10.0.1.4
 # vw1: 10.0.1.1
