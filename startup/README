@@ -1,7 +1,7 @@
 check the IP adress of the bridge
 
-# vw1: 10.0.1.1
-# vw2: 10.0.1.2
+# vw1: 10.0.1.[1]
+# vw2: 10.0.1.[2]
 ...
 
 make excecutable:

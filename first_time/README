@@ -9,7 +9,7 @@ apt-get install grub-customizer
 
 3. install driver:
 3.1. install additional packets:
-apt get install gcc g++
+apt-get install gcc g++
 3.2. build 
 make all
 make install
