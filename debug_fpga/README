@@ -1,0 +1,7 @@
+#Install package:
+sudo dpkg -i digilent.adept.runtime_2.19.2-amd64.deb
+sudo dpkg -i digilent.adept.utilities_2.2.1-amd64.deb
+
+# commands: dsumecfg enum - find devices
+# write - write to section
+# setbootsec - set to the desired  section (-s x)
