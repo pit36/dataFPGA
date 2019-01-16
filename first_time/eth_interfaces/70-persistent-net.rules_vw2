@@ -1,0 +1,10 @@
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5c", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth2"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5d", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth3"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5e", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth4"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5f", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth5"
+
+# interface with MAC address "" will be assigned "eth0"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5b", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
+# interface with MAC address "" will be assigned "eth1"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="78:d0:04:26:80:5a", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth1"
+

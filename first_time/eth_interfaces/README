@@ -1,0 +1,5 @@
+change file as shown in the examples:
+
+nano /etc/udev/rules.d/70-persistent-net.rules
+
+
