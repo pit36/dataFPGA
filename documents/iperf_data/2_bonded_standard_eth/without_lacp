@@ -1,0 +1,18 @@
+^Cvw4@vw4-demo:~$ sudo iperf -s -i 1
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 10.0.1.2 port 5001 connected with 10.0.1.1 port 39728
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec   112 MBytes   940 Mbits/sec
+[  4]  1.0- 2.0 sec   112 MBytes   942 Mbits/sec
+[  4]  2.0- 3.0 sec   112 MBytes   941 Mbits/sec
+[  4]  3.0- 4.0 sec   112 MBytes   941 Mbits/sec
+[  4]  4.0- 5.0 sec   112 MBytes   942 Mbits/sec
+[  4]  5.0- 6.0 sec   112 MBytes   941 Mbits/sec
+[  4]  6.0- 7.0 sec   112 MBytes   941 Mbits/sec
+[  4]  7.0- 8.0 sec   111 MBytes   933 Mbits/sec
+[  4]  8.0- 9.0 sec   112 MBytes   941 Mbits/sec
+[  4]  9.0-10.0 sec   112 MBytes   942 Mbits/sec
+[  4]  0.0-10.0 sec  1.10 GBytes   940 Mbits/sec
