@@ -1,0 +1,9 @@
+Commands bonding:
+sudo ovs-appctl bond/show bond0
+sudo ovs-vsctl set port bond0 lacp=active
+sudo ovs-vsctl set port bond0 bond_mode=balance-tcp
+sudo ovs-vsctl add-bond br0 bond0 nf0 nf1
+
+
+https://wiki.ubuntuusers.de/Netzwerkkarten_b%C3%BCndeln/
+https://osrg.github.io/ryu-book/en/html/link_aggregation.html

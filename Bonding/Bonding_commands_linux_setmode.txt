@@ -1,0 +1,14 @@
+if added bonding before to kernel:
+sudo modprobe -r bonding
+
+
+sudo modprobe bonding mode=4 xmit_hash_policy=layer3+4
+
+140  ip link add bondy type bond
+141  ip link set bond0 address 02:01:02:03:04:0x
+142  ip link set bondy address 02:01:02:03:04:0x
+143  ip link set eth4 master bondy
+144  ip link set eth5 master bondy
+145  ip addr add 10.1.0.x/24 dev bondy
+146  ip link set bondy up
+
